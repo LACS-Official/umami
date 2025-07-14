@@ -22,7 +22,7 @@ export default async function handler(req, res) {
     const umiId = websiteId || '291d8c16-1fd0-4c8c-9b6b-a902b90f31fe';
     const umiTime = Date.now();
 
-    const umiUrl = `https://umami.xn--5brr03o.top/api/websites/${umiId}/stats?startAt=0&endAt=${umiTime}`;
+    const umiUrl = `https://umami.lacs.cc/api/websites/${umiId}/stats?startAt=0&endAt=${umiTime}`;
 
     const response = await fetch(umiUrl, {
       method: 'GET',
